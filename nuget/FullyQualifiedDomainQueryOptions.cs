@@ -12,7 +12,6 @@ namespace APIVerve.API.FullyQualifiedDomain
     {
         /// <summary>
         /// The IP address to get the fully qualified domain name of
-        /// Example: 199.30.24.0
         /// </summary>
         [JsonProperty("ip")]
         public string Ip { get; set; }
