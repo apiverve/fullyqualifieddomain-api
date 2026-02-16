@@ -219,8 +219,9 @@ from apiverve_fullyqualifieddomain.apiClient import FullyqualifieddomainAPIClien
 
 api = FullyqualifieddomainAPIClient("[YOUR_API_KEY]")
 
+query = { "ip": "199.30.24.0" }
+
 try:
-    query = { "ip": "199.30.24.0" }
     result = api.execute(query)
     print(result)
 finally:
