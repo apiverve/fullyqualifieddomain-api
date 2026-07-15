@@ -125,6 +125,9 @@ async function makeRequest() {
     "ip": "199.30.24.0",
     "baseDomain": "msn.com",
     "fqdn": "msnbot-199-30-24-0.search.msn.com",
+    "tld": "com",
+    "subdomain": "msnbot-199-30-24-0.search",
+    "domainLevels": 5,
     "detected": true
   }
 }
