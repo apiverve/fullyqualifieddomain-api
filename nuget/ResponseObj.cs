@@ -25,6 +25,9 @@ namespace APIVerve.API.FullyQualifiedDomain
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -38,7 +41,28 @@ namespace APIVerve.API.FullyQualifiedDomain
         [JsonProperty("fqdn")]
         public string Fqdn { get; set; }
 
+        [JsonProperty("tld")]
+        public string Tld { get; set; }
+
+        [JsonProperty("subdomain")]
+        public string Subdomain { get; set; }
+
+        [JsonProperty("domainLevels")]
+        public long? DomainLevels { get; set; }
+
         [JsonProperty("detected")]
-        public bool Detected { get; set; }
+        public bool? Detected { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
