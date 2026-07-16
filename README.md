@@ -191,11 +191,34 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the Fully Qualified Domain API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "ip": "199.30.24.0",
+    "baseDomain": "msn.com",
+    "fqdn": "msnbot-199-30-24-0.search.msn.com",
+    "tld": "com",
+    "subdomain": "msnbot-199-30-24-0.search",
+    "domainLevels": 5,
+    "detected": true
+  }
 }
 ```
 
