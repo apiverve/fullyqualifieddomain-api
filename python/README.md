@@ -1,13 +1,12 @@
 Fully Qualified Domain API
 ============
 
-Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.
+Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-fullyqualifieddomain.svg)](https://pypi.org/project/apiverve-fullyqualifieddomain/)
+
+This is a Python wrapper for the [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-fullyqualifieddomain
 
 ## Configuration
 
-Before using the fullyqualifieddomain API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Fully Qualified Domain API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Fully Qualified Domain API documentation is found here: [https://docs.apiverve.com/ref/fullyqualifieddomain](https://docs.apiverve.com/ref/fullyqualifieddomain?utm_source=pypi&utm_medium=readme).
+The Fully Qualified Domain API documentation is found here: [https://docs.apiverve.com/ref/fullyqualifieddomain](https://docs.apiverve.com/ref/fullyqualifieddomain?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -105,6 +104,9 @@ print(result)
     "ip": "199.30.24.0",
     "baseDomain": "msn.com",
     "fqdn": "msnbot-199-30-24-0.search.msn.com",
+    "tld": "com",
+    "subdomain": "msnbot-199-30-24-0.search",
+    "domainLevels": 5,
     "detected": true
   }
 }
@@ -233,7 +235,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -244,12 +246,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
