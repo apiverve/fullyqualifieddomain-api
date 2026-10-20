@@ -1,13 +1,13 @@
-# [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.
+Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.
 
 The Fully Qualified Domain API provides a simple, reliable way to integrate fully qualified domain functionality into your applications. Built for developers who need production-ready fully qualified domain capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/fullyqualifieddomain-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/fullyqualifieddomain](https://docs.apiverve.com/ref/fullyqualifieddomain)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -226,7 +226,7 @@ A real response from the Fully Qualified Domain API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
