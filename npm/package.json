@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/fullyqualifieddomain",
-  "version": "1.2.0",
-  "description": "Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.",
+  "version": "1.2.2",
+  "description": "Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "fully qualified domain name", "fully qualified domain name api", "fully qualified domain name tool", "fully qualified domain name software", "fully qualified domain name service"
+    "fqdn api", "reverse dns lookup", "ip to fqdn", "ip to hostname", "ptr record lookup"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/fullyqualifieddomain-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
