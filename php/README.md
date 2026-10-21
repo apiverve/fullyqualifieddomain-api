@@ -1,6 +1,6 @@
 # Fully Qualified Domain API - PHP Package
 
-Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.
+Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.
 
 ## Installation
 
@@ -87,11 +87,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/fullyqualifieddomain?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/fullyqualifieddomain?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
