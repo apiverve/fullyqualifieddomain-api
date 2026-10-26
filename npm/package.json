@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/fullyqualifieddomain",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.",
   "main": "index.js",
   "types": "index.d.ts",
