@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Fully Qualified Domain API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [ip] (required) - The IP address to get the fully qualified domain name of [format: ip]

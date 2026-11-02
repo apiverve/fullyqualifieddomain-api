@@ -1,8 +1,8 @@
 /// Fully Qualified Domain API client for Dart/Flutter
 ///
-/// Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.
+/// Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=referral&utm_content=readme
 library apiverve_fullyqualifieddomain;
 
 export 'src/client.dart';

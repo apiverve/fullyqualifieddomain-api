@@ -1,11 +1,11 @@
 # Fully Qualified Domain API - Dart/Flutter Client
 
-Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.
+Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_fullyqualifieddomain.svg)](https://pub.dev/packages/apiverve_fullyqualifieddomain)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_fullyqualifieddomain: ^1.1.14
+  apiverve_fullyqualifieddomain: ^1.2.4
 ```
 
 Then run:
@@ -55,6 +55,9 @@ void main() async {
     "ip": "199.30.24.0",
     "baseDomain": "msn.com",
     "fqdn": "msnbot-199-30-24-0.search.msn.com",
+    "tld": "com",
+    "subdomain": "msnbot-199-30-24-0.search",
+    "domainLevels": 5,
     "detected": true
   }
 }
@@ -62,12 +65,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/fullyqualifieddomain](https://docs.apiverve.com/ref/fullyqualifieddomain?utm_source=dart&utm_medium=readme)
+- **API Home:** [Fully Qualified Domain API](https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/fullyqualifieddomain](https://docs.apiverve.com/ref/fullyqualifieddomain?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -75,4 +78,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)
