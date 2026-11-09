@@ -1,6 +1,6 @@
 name: apiverve_fullyqualifieddomain
 description: "Fully Qualified Domain resolves an IP address to its fully qualified domain name using reverse DNS PTR records. It returns the host FQDN, base domain, TLD, subdomain, and domain level count."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/fullyqualifieddomain?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/fullyqualifieddomain-api/tree/main/dart
 
